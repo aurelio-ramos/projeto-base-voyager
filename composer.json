@@ -6,17 +6,18 @@
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
+        "ext-exif": "*",
         "ext-gd": "*",
         "ext-mbstring": "*",
-        "ext-exif": "*",
-        "ext-xsl": "*",
         "ext-pdo_sqlite": "*",
+        "ext-xsl": "*",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/fortify": "^1.13",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
         "laravel/ui": "^4.0",
+        "laravellegends/pt-br-validator": "^9.1",
         "tcg/voyager": "^1.5"
     },
     "require-dev": {

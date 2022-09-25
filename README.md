@@ -134,6 +134,7 @@ As seguintes dependências foram incluidas no projeto:
 - [Laravel migration generator](https://github.com/kitloong/laravel-migrations-generator)
 - [Laravel UI](https://github.com/laravel/ui)
 - [Módulo de linguagem Português do Brasil (pt_BR) para Laravel](https://github.com/lucascudo/laravel-pt-BR-localization)
+- [laravelLegends/pt-br-validator](https://github.com/LaravelLegends/pt-br-validator)
 ---
 ## 💪 Como contribuir para o projeto
 
