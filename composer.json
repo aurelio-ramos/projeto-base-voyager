@@ -8,6 +8,7 @@
         "php": "^8.0.2",
         "ext-gd": "*",
         "ext-mbstring": "*",
+        "ext-exif": "*",
         "ext-pdo_sqlite": "*",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/fortify": "^1.13",
