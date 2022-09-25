@@ -15,9 +15,9 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Scripts -->
-    <link rel="stylesheet" href="{{ url('/vendor/bootstrap/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ url('/vendor/font-awesome/css/all.min.css') }}">
-    <link rel="stylesheet" href="{{ url('assets/css/app.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('/vendor/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('/vendor/font-awesome/css/all.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/css/app.css') }}">
     @yield('assets')
 </head>
 
@@ -61,8 +61,8 @@
             </div>
         </footer>
     @show
-    <script src="{{ url('/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ url('assets/js/app.js') }}></script>
+    <script src="{{ secure_asset('/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/app.js') }}></script>
 </body>
 
 </html>
