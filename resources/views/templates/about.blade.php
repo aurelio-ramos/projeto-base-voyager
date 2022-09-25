@@ -2,8 +2,8 @@
 <section class="page-section" id="about">
     <div class="container">
         <div class="text-center">
-            <h2 class="section-heading text-uppercase">{{$titulo ?? fake()->title}}</h2>
-            <h3 class="section-subheading text-muted">{{$subtitulo ?? fake()->name}}</h3>
+            <h2 class="section-heading text-uppercase">Exemplo timeline</h2>
+            <h3 class="section-subheading text-muted">Pode ser usada em eventos sequenciais</h3>
         </div>
         <ul class="timeline">
             <li>
